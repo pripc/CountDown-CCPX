@@ -1,0 +1,105 @@
+
+body{
+    font-family: Verdana;
+    margin:0px;
+}
+nav .navbar{
+    width:100%;
+}
+nav img{
+    padding-left:10px;
+}
+#secao1{
+    height:200px;
+}
+#aboveSection{
+    display:grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 40% 60% ;
+}
+#esquerda{
+    background-color: #514988;
+    margin:0;
+    width:100%;
+}
+#esquerda h1{
+    color:#F3C61F;
+    font-weight: 700;
+    padding-top:31px;
+}
+#esquerda h3{
+    color:white;
+    font-weight: 700;
+    font-size: 20px;
+}
+#esquerda p{
+    color:white;
+    font-weight: 400;
+    font-size:15px;
+    padding-top:30px;
+    text-align-last:center;
+    
+}
+
+#contador{
+    padding: 0px;
+    padding-left:20px;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap:50px;
+}
+.item{
+    display:flex;
+    flex-direction:row;
+    
+    
+}
+#frase {
+    color:#E33881;
+    font-weight:700;
+    font-style: bold;
+    font-size:20px;
+    text-align: left;
+    padding-left:30px;
+}
+#direita{
+    margin: 0px;
+    font-weight: 700;
+    padding:0px;
+}
+
+#direita #contador h2{
+    color:#514988;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+#secao2{
+    color:#F3C61F;
+    font-weight: 700;
+}
+.col button{
+    background-color: #514988;
+    color:white;
+    border-style: none;
+    width:400px;
+    height:80px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top:10%;
+    padding-left:0px;
+}
+#belowBar h2{
+    color:#F3C61F;
+    font-weight: 700;
+    font-size:20px;
+    padding:10px;
+}
+#belowBar{
+    display:grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 60% 40%;
+    padding:0px;
+}
